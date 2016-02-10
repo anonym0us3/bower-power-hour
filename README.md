@@ -54,7 +54,7 @@ bower install underscore bootstrap
 
 ####What just happened?
 
-You'll notice you have a new directory in your project folder called `bower_compents`. Inside, you'll find folders for everything you just installed: jQuery, Underscore, and Bootstrap.
+You'll notice you have a new directory in your project folder called `bower_components`. Inside, you'll find folders for everything you just installed: jQuery, Underscore, and Bootstrap.
 
 Inside of each of these folders you'll see a bunch of files. Don't worry. The file with the name of the library is probably the main one. For example, `bower_components/underscore/underscore.js` is the only file you'll use for Underscore. For the other libraries, you may need to look inside a `dist` (for distribution) directory to find `jquery.js`.
 
@@ -69,15 +69,15 @@ Here's what it will look like (note `bower_components` in each **relative** path
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- underscore -->
-  <script type="text/javascript" src="/bower_components/underscore/underscore.js"></script>
+  <script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
   <!-- jquery -->
-  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
   <!-- boostrap js -->
-  <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <!-- boostrap css -->
-  <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <!-- boostrap css theme (optional) -->
-  <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
 </head>
 <body>
 
